@@ -1,0 +1,23 @@
+{
+  "name": "Vue-Hub",
+  "version": "1.0.0",
+  "description": "Miscellaneous Vue projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Radeonxz/Vue-Hub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Radeonxz/Vue-Hub/issues"
+  },
+  "homepage": "https://github.com/Radeonxz/Vue-Hub#readme",
+  "dependencies": {
+    "@vue/cli": "^4.5.11"
+  }
+}
