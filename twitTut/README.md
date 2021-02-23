@@ -1,4 +1,4 @@
-# vueTwit
+# twitTut
 
 ## Project setup
 ```
