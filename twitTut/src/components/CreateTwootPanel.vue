@@ -58,3 +58,42 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+.create-twoot-panel {
+  margin-top: 20px;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  textarea {
+    border: 1px solid #dfe3e8;
+    border-radius: 5px;
+  }
+  .create-twoot-panel__submit {
+    display: flex;
+    justify-content: space-between;
+    .create-twoot-type {
+      padding: 10px 0;
+    }
+    button {
+      padding: 5px 20px;
+      margin: auto 0;
+      border-radius: 5px;
+      border: none;
+      background-color: deeppink;
+      color: white;
+      font-weight: bold;
+    }
+  }
+  &.--exceeded {
+    color: red;
+    border-color: red;
+    .create-twoot-panel__submit {
+      button {
+        background-color: red;
+        color: white;
+      }
+    }
+  }
+}
+</style>
